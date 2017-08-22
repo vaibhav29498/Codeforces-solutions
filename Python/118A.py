@@ -1,0 +1,1 @@
+print('.' + '.'.join(list(filter(lambda x: x not in ['a', 'e', 'i', 'o', 'u', 'y'], list(input().lower())))))
